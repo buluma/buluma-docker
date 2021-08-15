@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## [Component builds](#component-builds)
 
-You can use the [editor on GitHub](https://github.com/buluma/buluma-docker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Ansible tests are being executed using the following components
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [Operating specific containers](#operating-specific-containers)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/buluma/buluma-docker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+|Component|Build status|
+|---------|------------|
+|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://img.shields.io/docker/cloud/build/robertdebock/alpine.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
+|[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
+|[docker-centos-systemd](https://github.com/robertdebock/docker-centos-systemd)|[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)|
+|[docker-debian-systemd](https://github.com/robertdebock/docker-debian-systemd)|[![debian build status](https://img.shields.io/docker/cloud/build/robertdebock/debian.svg)](https://hub.docker.com/repository/docker/robertdebock/debian)|
+|[docker-fedora-systemd](https://github.com/robertdebock/docker-fedora-systemd)|[![fedora build status](https://img.shields.io/docker/cloud/build/robertdebock/fedora.svg)](https://hub.docker.com/repository/docker/robertdebock/fedora)|
+|[docker-opensuse-systemd](https://github.com/robertdebock/docker-opensuse-systemd)|[![opensuse build status](https://img.shields.io/docker/cloud/build/robertdebock/opensuse.svg)](https://hub.docker.com/repository/docker/robertdebock/opensuse)|
+|[docker-oraclelinux-systemd](https://github.com/robertdebock/docker-oraclelinux-systemd)|[![oraclelinux build status](https://img.shields.io/docker/cloud/build/robertdebock/oraclelinux.svg)](https://hub.docker.com/repository/docker/robertdebock/oraclelinux)|
+<!-- |[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)| -->
+|[docker-ubuntu-systemd](https://github.com/buluma/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/buluma/docker-ubuntu-systemd.svg)](https://hub.docker.com/repository/docker/buluma/docker-ubuntu-systemd)|
