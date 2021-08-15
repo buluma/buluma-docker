@@ -1,6 +1,6 @@
-## [Component builds](#component-builds)
+## [Docker builds](#docker-builds)
 
-Ansible tests are being executed using the following components
+Docker tests are being executed using the following components
 
 ### [Operating specific containers](#operating-specific-containers)
 
