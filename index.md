@@ -2,7 +2,7 @@
 
 Docker tests are being executed using the following components
 
-### [Ubuntu specific containers](#operating-specific-containers)
+### [Operating specific containers](#operating-specific-containers)
 
 |Component|Build status|Docker pulls|
 |---------|------------|------------|
@@ -16,61 +16,25 @@ Docker tests are being executed using the following components
 |[ubuntu2004-ansible](https://github.com/buluma/docker-ubuntu2004-ansible)|[![Build and Push Container](https://github.com/buluma/docker-ubuntu2004-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-ubuntu2004-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-ubuntu2004-ansible)|
 |[ubuntu2104-ansible](https://github.com/buluma/docker-ubuntu2104-ansible)|[![Build and Push Container](https://github.com/buluma/docker-ubuntu2104-ansible/actions/workflows/build-image.yml/badge.svg)](https://github.com/buluma/docker-ubuntu2104-ansible/actions/workflows/build-image.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-ubuntu2104-ansible)|
 |[ubuntu2204-ansible](https://github.com/buluma/docker-ubuntu2204-ansible)|[![Build and Push Container](https://github.com/buluma/docker-ubuntu2204-ansible/actions/workflows/build-image.yml/badge.svg)](https://github.com/buluma/docker-ubuntu2204-ansible/actions/workflows/build-image.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-ubuntu2204-ansible)|
-
-### [Alpine specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[alpine](https://www.github.com/buluma/alpine)|[![alpine-3.15](https://github.com/buluma/alpine/actions/workflows/build-3.15.yml/badge.svg)](https://github.com/buluma/alpine/actions/workflows/build-3.15.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/alpine)|
 |[alpine-build](https://github.com/buluma/alpine_build)|[![Build and Push Container](https://github.com/buluma/alpine_build/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/buluma/alpine_build/actions/workflows/docker-publish.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/alpine_build)|
-
-### [Busybox specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[busybox](https://www.github.com/buluma/busybox)|[![busybox, latest](https://github.com/buluma/busybox/actions/workflows/build-1.34.yml/badge.svg)](https://github.com/buluma/busybox/actions/workflows/build-1.34.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/busybox)|
-
-### [Centos specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[centos](https://www.github.com/buluma/centos)|[![Build centos8](https://github.com/buluma/centos/actions/workflows/build-centos8.yml/badge.svg)](https://github.com/buluma/centos/actions/workflows/build-centos8.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/centos)|
 |[centos-systemd](https://github.com/buluma/centos-systemd)|[![Build and Push Container](https://github.com/buluma/centos-systemd/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/buluma/centos-systemd/actions/workflows/docker-publish.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/centos-systemd)|
 |[centos-6-ansible](https://github.com/buluma/docker-centos6-ansible)|[![Build and Push Container](https://github.com/buluma/docker-centos6-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-centos6-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-centos6-ansible)|
 |[centos-7-ansible](https://github.com/buluma/docker-centos7-ansible)|[![Build and Push Container](https://github.com/buluma/docker-centos7-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-centos7-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-centos7-ansible)|
 |[centos-8-ansible](https://github.com/buluma/docker-centos8-ansible)|[![Build and Push Container](https://github.com/buluma/docker-centos8-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-centos8-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-centos8-ansible)|
-
-### [Redis specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[redis](https://www.github.com/buluma/redis)|[![redis, 6.2-bullseye](https://github.com/buluma/redis/actions/workflows/bullseye.yml/badge.svg)](https://github.com/buluma/redis/actions/workflows/bullseye.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/redis)|
-
-### [Debian specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[debian](https://www.github.com/buluma/debian)|[![Build and Push Container](https://github.com/buluma/docker-debian10-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-debian10-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/debian)|
 |[docker-debian10-ansible](https://github.com/buluma/docker-debian10-ansible)|[![Build and Push Container](https://github.com/buluma/docker-debian10-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-debian10-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-debian10-ansible)|
 |[docker-debian9-ansible](https://github.com/buluma/docker-debian9-ansible)|[![Build and Push Container](https://github.com/buluma/docker-debian9-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-debian9-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-debian9-ansible)|
 |[docker-debian8-ansible](https://github.com/buluma/docker-debian8-ansible)|[![Build and Push Container](https://github.com/buluma/docker-debian8-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-debian8-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-debian8-ansible)|
-
-### [Fedora specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[fedora](https://www.github.com/buluma/fedora)|[![Build fedora-36](https://github.com/buluma/fedora/actions/workflows/fedora-36.yml/badge.svg)](https://github.com/buluma/fedora/actions/workflows/fedora-36.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/fedora)|
 |[fedora32-ansible](https://github.com/buluma/docker-fedora32-ansible)|[![Build and Push Container](https://github.com/buluma/docker-fedora32-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-fedora32-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora32-ansible)|
 |[fedora33-ansible](https://github.com/buluma/docker-fedora33-ansible)|[![Build and Push Container](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora33-ansible)|
 |[fedora34-ansible](https://github.com/buluma/docker-fedora34-ansible)|[![Build and Push Container](https://github.com/buluma/docker-fedora34-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-fedora34-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora34-ansible)|
 |[fedora35-ansible](https://github.com/buluma/docker-fedora35-ansible)|[![Build and Push Container](https://github.com/buluma/docker-fedora35-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/buluma/docker-fedora35-ansible/actions/workflows/build.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora35-ansible)|
 |[fedora36-ansible](https://github.com/buluma/docker-fedora36-ansible)|[![Build and Push Container](https://github.com/buluma/docker-fedora36-ansible/actions/workflows/main.yml/badge.svg)](https://github.com/buluma/docker-fedora36-ansible/actions/workflows/main.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora36-ansible)|
-
-### [Opensuse Systemd specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[docker-opensuse-systemd](https://github.com/buluma/docker-opensuse-systemd)|[![Build and Push Container](https://github.com/buluma/docker-opensuse-systemd/actions/workflows/build-push-action.yml/badge.svg)](https://github.com/buluma/docker-opensuse-systemd/actions/workflows/build-push-action.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-opensuse-systemd)|
-
-### [Wordpress specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[docker-wordpress-launch](https://github.com/buluma/docker-wordpress-launch)|[![Docker Image](https://github.com/buluma/docker-wordpress-launch/actions/workflows/docker.yml/badge.svg)](https://github.com/buluma/docker-wordpress-launch/actions/workflows/docker.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/wordpress-launch)|
-
-### [Haproxy specific containers](#operating-specific-containers)
-|Component|Build status|Docker pulls|
-|---------|------------|------------|
 |[haproxy](https://github.com/buluma/haproxy)|[![Build 2.5-bullseye-slim](https://github.com/buluma/haproxy/actions/workflows/build-2.5.yml/badge.svg)](https://github.com/buluma/haproxy/actions/workflows/build-2.5.yml)| ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/haproxy)|
